@@ -19,8 +19,6 @@ The Palindrome Checker is a simple web application built using HTML, CSS, and Ja
 2. Click the "Check Palindrome" button.
 3. The application will display whether the entered text is a palindrome.
 
-## Demo
-You can see a live demo of the Palindrome Checker [here](http://127.0.0.1:5500/index.html).
 
 ## Usage
 To use this project, simply clone the repository and open the `index.html` file in your browser:
