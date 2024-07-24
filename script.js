@@ -1,11 +1,16 @@
 const txtInput = document.querySelector(".inputs input"); 
-checkBtn = document.querySelector(".inputs button")
+const checkBtn = document.querySelector(".inputs button");
+let filterInput;
+
+checkBtn.addEventListener("click", () => {
+    console.log(filterInput);
+});
 
 txtInput.addEventListener("keyup", () => {
-    //removing spaces & all special characters from entered value
-    let filterInput = txtInput.value.replace(/[^A-Z0-9]/ig, "")
+    // Removing spaces & all special characters from entered value
+    filterInput = txtInput.value.replace(/[^A-Z0-9]/ig, "");
     if(filterInput) {
         return checkBtn.classList.add("active");
     }
     checkBtn.classList.remove("active");
-})
+});
