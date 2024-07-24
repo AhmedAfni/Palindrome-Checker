@@ -66,6 +66,11 @@ header p{
     background: black;
 }
 
+.inputs button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .info-txt{
     display: none;
     font-size: 19px;
@@ -73,6 +78,6 @@ header p{
     margin-bottom: 18px;
 }
 
-.info-txt span{
-    color: white;
+.info-text span{
+    color: black;
 }
